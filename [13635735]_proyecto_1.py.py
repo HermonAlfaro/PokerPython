@@ -264,11 +264,6 @@ def tarea(poker):
             poker.terminar()
 
 
-
-
-        #FIN TAREA EJEMPLO
-
-
 app = pokerGUI.Application(None)
 app.title('Video Poker')
 app.loadProgram(tarea)
